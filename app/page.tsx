@@ -140,11 +140,12 @@ export default function Home() {
            
 
           </section>
-          <section className="w-full bg-gray-100 py-20">
+          <section className="w-full bg-gray-200 py-20">
   <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
     {/* 1. CRIMINAL CASES */}
     <div className="bg-white shadow-md rounded-xl overflow-hidden text-center p-6">
+
       <img
         src="/Criminal-Cases-Hsbainsla.png"
         alt="Criminal-Cases-Hsbainsla"
@@ -226,6 +227,76 @@ export default function Home() {
   </div>
 </section>
 
+     <section className="max-w-7xl mx-auto px-4 py-20">
+
+            {/* MAIN HEADING */}
+            <h3 className="text-left md:text-3xl font-bold">
+             Trusted Criminal Lawyer in Greater Noida – Dedicated to Protecting Your Rights 
+            </h3>
+
+            {/* SEPARATOR */}
+            <hr className="mt-8 mb-12 border-gray-300" />
+
+            
+            {/* MAIN PARAGRAPH */}
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              As one of the <strong>leading criminal lawyers in Greater Noida</strong>, I provide strong, 
+              focused, and strategic defence in complex criminal matters. My practice is built on deep 
+              courtroom experience and a clear understanding of the criminal justice system, allowing me 
+              to represent clients effectively in sensitive and high-risk cases. I have successfully handled 
+              bail applications, anticipatory bail, FIR quashing, 498A allegations, domestic violence matters, 
+              criminal intimidation, assault cases, cheating and fraud offences, cybercrime investigations, 
+              and various IPC-related charges.
+            </p>
+
+            <p className="text-gray-700 text-justify leading-relaxed">
+              Criminal accusations can damage a person’s reputation, freedom, and professional life. That is 
+              why I work with precision, strong legal research, and powerful arguments to protect my clients 
+              at every stage — from police investigation to trial. My defence strategy focuses on facts, 
+              evidence, cross-examination, and absolute commitment to safeguarding your rights. Whether you are 
+              falsely implicated or facing a serious criminal allegation, my priority is to ensure a fair trial, 
+              reduce your legal stress, and fight relentlessly for justice.
+            </p>
+
+          </section>
+          <hr className="max-w-7xl mx-auto mb-12 border-gray-300" />
+
+          <section className="w-full py-10 bg-white">
+
+              <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+                {/* LEFT IMAGE */}
+                <div>
+                  <img
+                    src="/office-image.jpg"
+                    alt="Office Interior"
+                    className="w-full h-[400px] object-cover rounded-xl shadow-md"
+                  />
+                </div>
+
+                {/* RIGHT PARAGRAPH */}
+                <div>
+                  <p className="text-gray-700 text-justify leading-relaxed ">
+                    With over 17 years of dedicated legal practice, I am committed to providing reliable, 
+                    honest, and result-driven legal assistance to clients in Greater Noida and Ghaziabad. 
+                    My office is designed to offer a professional and comfortable environment where clients 
+                    can openly discuss their cases with complete confidentiality and trust. From the moment 
+                    you enter, my aim is to make the legal process simpler, clearer, and stress-free for you. 
+                    Whether you are dealing with criminal matters, bail issues, FIR quashing, 498A allegations, 
+                    cybercrime investigations, or any IPC-related offences, my priority is to guide you with 
+                    transparency and provide strong representation at every stage of your case. You can always 
+                    expect honest advice, thorough case preparation, and a legal strategy focused entirely on 
+                    protecting your rights and securing justice.
+                  </p>
+
+                  {/* BUTTON */}
+                  <button className="mt-8 bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
+                    Read more
+                  </button>
+                </div>
+
+              </div>
+          </section>
 
 
     </div>
