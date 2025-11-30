@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import CorporateSection from "../components/CorporateSection";
 
 export default function Home() {
 
@@ -138,19 +137,8 @@ export default function Home() {
     fight for justice with determination and professionalism.
   </p>
 
-  {/* BOTTOM BOLD TEXT + CONTACT BUTTON */}
-  <div className="flex justify-between items-center mt-12">
-    <h4 className="text-justify md:text-2xl font-bold text-gray-900">
-      Your trusted legal partner ensuring justice and protecting your rights with confidence.
-    </h4>
-
-    <a
-      href="#"
-      className="bg-blue-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-700"
-    >
-      Contact us
-    </a>
-  </div>
+  {/* SEPARATOR */}
+  <hr className="mt-8 mb-12 border-gray-300" />
 
 </section>
 
