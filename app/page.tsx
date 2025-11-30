@@ -94,7 +94,7 @@ export default function Home() {
             Justice, Guidance & Legal Protection
           </h3>
           <p className="text-white text-lg  mt-6 max-w-3xl">
-            Professional and reliable legal support for Matrimonial, Criminal, Civil, and other disputes — 
+            Professional and reliable legal support for Criminal, Civil, Consumer Cases and other disputes — 
             delivered with honesty, clarity, and strong representation.
           </p>
 
@@ -140,7 +140,7 @@ export default function Home() {
 
   {/* BOTTOM BOLD TEXT + CONTACT BUTTON */}
   <div className="flex justify-between items-center mt-12">
-    <h3 className="text-xl md:text-2xl font-bold text-gray-900">
+    <h3 className="text-justify md:text-2xl font-bold text-gray-900">
       Your trusted legal partner ensuring justice and protecting your rights with confidence.
     </h3>
 
