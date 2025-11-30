@@ -93,7 +93,7 @@ export default function Home() {
             Justice, Guidance & Legal Protection
           </h3>
           <p className="text-white text-lg  mt-6 max-w-3xl">
-            Professional and reliable legal support for Criminal, Civil, Consumer Cases and other disputes — 
+            Professional and reliable legal support for Matrimonial, Criminal, Civil, and other disputes — 
             delivered with honesty, clarity, and strong representation.
           </p>
 
@@ -105,42 +105,127 @@ export default function Home() {
 
       <section className="max-w-7xl mx-auto px-4 py-20">
 
-  {/* MAIN HEADING */}
-  <h3 className="text-center md:text-5xl font-bold text-blue-700">
-    Hukam Singh Bainsla – Advocate
-  </h3>
+            {/* MAIN HEADING */}
+            <h3 className="text-center md:text-5xl font-bold text-blue-700">
+              Hukam Singh Bainsla – Advocate
+            </h3>
 
-  {/* SEPARATOR */}
-  <hr className="mt-8 mb-12 border-gray-300" />
+            {/* SEPARATOR */}
+            <hr className="mt-8 mb-12 border-gray-300" />
 
-  {/* SMALL TOP LINE */}
-  <p className="text-lg font-medium text-gray-700 mb-6">
-    We provide experienced and trusted legal services to our clients.
-  </p>
+            {/* SMALL TOP LINE */}
+            <p className="text-lg font-medium text-gray-700 mb-6">
+              We provide experienced and trusted legal services to our clients.
+            </p>
 
-  {/* MAIN PARAGRAPH */}
-  <p className="text-gray-700 text-justify leading-relaxed mb-6">
-    I have been practicing law since 2007, representing clients before the Surajpur District Court, 
-    Greater Noida, as well as Ghaziabad District Court. Over the years, I have gained extensive 
-    practical experience handling Criminal Cases including bail matters, FIR quashing, domestic 
-    violence cases, property disputes, financial fraud, and various IPC offences. Along with criminal 
-    litigation, I also deal with Civil Cases, Consumer Forum matters, and RERA cases with strong command 
-    over documentation, procedures, and courtroom strategy. My approach focuses on providing honest 
-    guidance, clear legal advice, and fearless representation to ensure the best possible outcome 
-    for every client.
-  </p>
+            {/* MAIN PARAGRAPH */}
+            <p className="text-gray-700 text-justify leading-relaxed mb-6">
+              I have been practicing law since 2007, representing clients before the Surajpur District Court, 
+              Greater Noida, as well as Ghaziabad District Court. Over the years, I have gained extensive 
+              practical experience handling Criminal Cases including bail matters, FIR quashing, domestic 
+              violence cases, property disputes, financial fraud, and various IPC offences. Along with criminal 
+              litigation, I also deal with Civil Cases, Consumer Forum matters, and RERA cases with strong command 
+              over documentation, procedures, and courtroom strategy. My approach focuses on providing honest 
+              guidance, clear legal advice, and fearless representation to ensure the best possible outcome 
+              for every client.
+            </p>
 
-  <p className="text-gray-700 text-justify leading-relaxed">
-    With nearly two decades of experience in trial court practice, I understand how sensitive and 
-    stressful legal matters can be. Whether it is a criminal allegation, civil dispute, consumer complaint, 
-    or a RERA-related issue, I work tirelessly to protect your rights, reduce your legal worries, and 
-    fight for justice with determination and professionalism.
-  </p>
+            <p className="text-gray-700 text-justify leading-relaxed">
+              With nearly two decades of experience in trial court practice, I understand how sensitive and 
+              stressful legal matters can be. Whether it is a criminal allegation, civil dispute, consumer complaint, 
+              or a RERA-related issue, I work tirelessly to protect your rights, reduce your legal worries, and 
+              fight for justice with determination and professionalism.
+            </p>
 
-  {/* SEPARATOR */}
-  <hr className="mt-8 mb-12 border-gray-300" />
+           
 
+          </section>
+          <section className="w-full bg-gray-100 py-20">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+    {/* 1. CRIMINAL CASES */}
+    <div className="bg-white shadow-md rounded-xl overflow-hidden text-center p-6">
+      <img
+        src="/Criminal-Cases-Hsbainsla.png"
+        alt="Criminal-Cases-Hsbainsla"
+        className="w-full h-44 object-cover rounded-md"
+      />
+
+      <h3 className="text-2xl font-bold text-gray-800 mt-6">Criminal Cases</h3>
+
+      <p className="text-gray-600 mt-4 text-base leading-relaxed">
+        Expert representation for bail matters, FIR quashing, domestic violence, 498A, fraud, 
+        cybercrime, and all IPC-related offences with strong defence strategy.
+      </p>
+
+      <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700">
+        See More
+      </button>
+    </div>
+
+    {/* 2. CIVIL CASES */}
+    <div className="bg-white shadow-md rounded-xl overflow-hidden text-center p-6">
+      <img
+        src="/civil-Cases-Hsbainsla.png"
+        alt="civil-Cases-Hsbainsla"
+        className="w-full h-44 object-cover rounded-md"
+      />
+
+      <h3 className="text-2xl font-bold text-gray-800 mt-6">Civil Cases</h3>
+
+      <p className="text-gray-600 mt-4 text-base leading-relaxed">
+        Solutions for property disputes, recovery suits, injunction matters,
+        contract disputes, and all types of civil litigation with fair guidance.
+      </p>
+
+      <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700">
+        See More
+      </button>
+    </div>
+
+    {/* 3. CONSUMER CASES */}
+    <div className="bg-white shadow-md rounded-xl overflow-hidden text-center p-6">
+      <img
+        src="/Consumer-Cases-Hsbainsla.png"
+        alt="Consumer-Cases-Hsbainsla"
+        className="w-full h-44 object-cover rounded-md"
+      />
+
+      <h3 className="text-2xl font-bold text-gray-800 mt-6">Consumer Cases</h3>
+
+      <p className="text-gray-600 mt-4 text-base leading-relaxed">
+        Representation for consumer disputes related to fraud, defective goods/services, 
+        builder delays, unfair trade practices, and all consumer rights matters.
+      </p>
+
+      <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700">
+        See More
+      </button>
+    </div>
+
+    {/* 4. RERA CASES */}
+    <div className="bg-white shadow-md rounded-xl overflow-hidden text-center p-6">
+      <img
+        src="/RERA-Cases-hsbiansla.png"
+        alt="RERA-Cases-hsbiansla"
+        className="w-full h-44 object-cover rounded-md"
+      />
+
+      <h3 className="text-2xl font-bold text-gray-800 mt-6">RERA Cases</h3>
+
+      <p className="text-gray-600 mt-4 text-base leading-relaxed">
+        Strong legal support for builder disputes, delayed possession, refund claims, 
+        compensation matters, and all real estate cases under RERA.
+      </p>
+
+      <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700">
+        See More
+      </button>
+    </div>
+
+  </div>
 </section>
+
 
 
     </div>
