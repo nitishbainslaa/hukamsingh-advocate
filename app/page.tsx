@@ -140,9 +140,9 @@ export default function Home() {
 
   {/* BOTTOM BOLD TEXT + CONTACT BUTTON */}
   <div className="flex justify-between items-center mt-12">
-    <h3 className="text-justify md:text-2xl font-bold text-gray-900">
+    <h4 className="text-justify md:text-2xl font-bold text-gray-900">
       Your trusted legal partner ensuring justice and protecting your rights with confidence.
-    </h3>
+    </h4>
 
     <a
       href="#"
