@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+
 export default function Home() {
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -259,11 +260,11 @@ export default function Home() {
             </p>
 
           </section>
-          <hr className="max-w-7xl mx-auto mb-12 border-gray-300" />
+          <hr className="max-w-7xl mx-auto mb-10 border-gray-300" />
 
-          <section className="w-full py-10 bg-white">
+          <section className="max-w-7xl mx-auto px-0 py-15">
 
-              <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className=" mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
                 {/* LEFT IMAGE */}
                 <div>
@@ -297,7 +298,157 @@ export default function Home() {
 
               </div>
           </section>
+          <section className="w-full bg-gray-200 py-20">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
 
+    {/* LEFT SIDE – 1/3 WIDTH (IMAGE + PARAGRAPH) */}
+    <div className="col-span-1">
+      <img
+        src="/contact-image.png"
+        alt="Office Inside"
+        className="w-full h-72 object-cover rounded-xl shadow-lg"
+      />
+
+      <p className="text-gray-700 text-justify leading-relaxed mt-6">
+        My office provides a calm and professional environment where clients can
+        comfortably discuss their legal matters with complete privacy and trust.
+        With years of experience in handling criminal matters including bail,
+        FIR quashing, 498A, cyber offences, and various IPC-related cases, my
+        focus is to offer strong representation, strategic guidance, and complete
+        transparency throughout the legal process. Every client receives personal
+        attention, honest advice, and a defence strategy tailored specifically to
+        their case needs.
+      </p>
+    </div>
+
+    {/* RIGHT SIDE – 2/3 WIDTH (CONTACT FORM) */}
+    <div className="col-span-2 bg-white p-10 rounded-3xl shadow-xl border border-gray-200">
+      <h3 className="text-3xl font-bold text-gray-900 mb-10 text-center">
+        Contact Us
+      </h3>
+
+      <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        {/* FULL NAME */}
+        <div className="flex flex-col gap-2">
+          <label className="text-sm font-medium text-gray-700">
+            Full Name *
+          </label>
+          <input
+            type="text"
+            required
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl 
+                       outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-600"
+          />
+        </div>
+
+        {/* MOBILE NUMBER */}
+        <div className="flex flex-col gap-2">
+          <label className="text-sm font-medium text-gray-700">
+            Mobile Number *
+          </label>
+          <input
+            type="tel"
+            required
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl 
+                       outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-600"
+          />
+        </div>
+
+        {/* EMAIL */}
+        <div className="flex flex-col gap-2">
+          <label className="text-sm font-medium text-gray-700">
+            Email (optional)
+          </label>
+          <input
+            type="email"
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl 
+                       outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-600"
+          />
+        </div>
+
+        {/* MESSAGE */}
+        <div className="flex flex-col gap-2 md:col-span-2">
+          <label className="text-sm font-medium text-gray-700">
+            Your Message *
+          </label>
+          <textarea
+            required
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl h-32 
+                       outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-600"
+          ></textarea>
+        </div>
+
+        {/* SUBMIT BUTTON */}
+        <div className="md:col-span-2">
+          <button
+            type="submit"
+            className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold
+                       rounded-xl shadow-lg transition transform hover:scale-[1.02]"
+          >
+            Submit Inquiry
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+<footer className="w-full bg-white py-10">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+    {/* LEFT SIDE — LOGO + TEXT */}
+    <div className="flex flex-col">
+      <img
+        src="/Footer-Logo.png"
+        alt="Footer Logo"
+        className="w-78 mb-5"
+      />
+
+      <p className="text-gray-600 leading-relaxed max-w-lg">
+        Law Matrix LLP is a full-service law firm delivering strategic, innovative, and 
+        result-oriented legal solutions in Litigation, IPR, IBC, Arbitration, Taxation, 
+        Compliance, White-Collar Crimes, Corporate Advisory, and Cybersecurity.
+      </p>
+    </div>
+
+    {/* RIGHT SIDE — MENU LINKS + SOCIAL ICONS */}
+    <div className="flex flex-col items-start lg:items-end">
+
+      {/* TOP MENU */}
+      <div className="flex flex-wrap gap-8 text-gray-700 text-sm font-semibold mb-8">
+        <a href="#" className="hover:text-blue-600">SITEMAP</a>
+        <a href="#" className="hover:text-blue-600">ACCESSIBILITY</a>
+        <a href="#" className="hover:text-blue-600">PRIVACY POLICY</a>
+        <a href="#" className="hover:text-blue-600">COOKIE</a>
+        <a href="#" className="hover:text-blue-600">TERMS OF USE</a>
+      </div>
+
+      {/* SOCIAL ICONS */}
+      <div className="flex items-center gap-5 mb-8">
+        <a href="#" className="w-10 h-10 flex items-center justify-center bg-black text-white rounded-full hover:bg-gray-800">
+          <i className="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" className="w-10 h-10 flex items-center justify-center bg-black text-white rounded-full hover:bg-gray-800">
+          <i className="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="#" className="w-10 h-10 flex items-center justify-center bg-black text-white rounded-full hover:bg-gray-800">
+          <i className="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" className="w-10 h-10 flex items-center justify-center bg-black text-white rounded-full hover:bg-gray-800">
+          <i className="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      {/* COPYRIGHT */}
+      <div className="text-center w-full border-t pt-4">
+        <p className="text-gray-800 font-semibold">Copyright Protected 2025</p>
+        <p className="text-gray-800 font-semibold">Hukam singh Bainsla - Advocate | All Rights Reserved</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
 
     </div>
   );
