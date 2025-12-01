@@ -405,10 +405,8 @@ export default function Home() {
         className="w-78 mb-5"
       />
 
-      <p className="text-gray-600 leading-relaxed max-w-lg">
-        Law Matrix LLP is a full-service law firm delivering strategic, innovative, and 
-        result-oriented legal solutions in Litigation, IPR, IBC, Arbitration, Taxation, 
-        Compliance, White-Collar Crimes, Corporate Advisory, and Cybersecurity.
+      <p className="text-gray-600 text-justify leading-relaxed max-w-lg">
+        HS Bainsla Advocate provides reliable and result-driven legal services focused on Criminal Law, Bail Matters, FIR Quashing, 498A, Fraud, Cyber Offences, Civil and Property Disputes, and Consumer Litigation. 
       </p>
     </div>
 
