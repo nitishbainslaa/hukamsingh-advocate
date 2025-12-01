@@ -46,7 +46,11 @@ export default function Home() {
           {/* NAVBAR DESKTOP */}
           <nav className="hidden md:flex items-center gap-10 text-gray-700 font-medium">
             <a href="#" className="text-blue-500 border-b-2 border-blue-500 pb-1">Home</a>
+<<<<<<< HEAD
             <a href="./about">About us</a>
+=======
+            <a href="#">About us</a>
+>>>>>>> 188b615323b0b1f2598e89b9e40f55966e8530d0
             <a href="#">Services</a>
             <a href="#">Service Location</a>
             <a href="#">Testimonial</a>
@@ -304,7 +308,11 @@ export default function Home() {
     {/* LEFT SIDE – 1/3 WIDTH (IMAGE + PARAGRAPH) */}
     <div className="col-span-1">
       <img
+<<<<<<< HEAD
         src="/contact-image.png"
+=======
+        src="/Contact-image.png"
+>>>>>>> 188b615323b0b1f2598e89b9e40f55966e8530d0
         alt="Office Inside"
         className="w-full h-72 object-cover rounded-xl shadow-lg"
       />
