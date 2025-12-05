@@ -304,7 +304,7 @@ export default function Home() {
     {/* LEFT SIDE – 1/3 WIDTH (IMAGE + PARAGRAPH) */}
     <div className="col-span-1">
       <img
-        src="/contact-image.png"
+        src="/Contact-image.png"
         alt="Office Inside"
         className="w-full h-72 object-cover rounded-xl shadow-lg"
       />
