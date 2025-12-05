@@ -47,7 +47,7 @@ export default function Home() {
           <nav className="hidden md:flex items-center gap-10 text-gray-700 font-medium">
             <a href="#" className="text-blue-500 border-b-2 border-blue-500 pb-1">Home</a>
             <a href="./about">About us</a>
-            <a href="#">Services</a>
+            <a href="./services">Services</a>
             <a href="#">Service Location</a>
             <a href="#">Testimonial</a>
             <a href="#">Blog</a>
@@ -66,9 +66,9 @@ export default function Home() {
         {/* MOBILE MENU DROPDOWN */}
         {menuOpen && (
           <div className="md:hidden bg-white shadow p-4 flex flex-col gap-4 text-lg font-medium">
-            <a href="#" className="text-blue-500">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Services</a>
+            <a href="/" className="text-blue-500">Home</a>
+            <a href="./about">About us</a>
+            <a href="./services">Services</a>
             <a href="#">Service Location</a>
             <a href="#">Testimonial</a>
             <a href="#">Blog</a>
