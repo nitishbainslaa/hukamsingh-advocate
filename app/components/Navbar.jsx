@@ -45,7 +45,7 @@ export default function Navbar() {
 
           {/* NAVBAR DESKTOP */}
           <nav className="hidden md:flex items-center gap-10 text-gray-700 font-medium">
-            <a href="/" className="hover:text-blue-500">Home</a>
+            <a href="#" className="hover:text-blue-500">Home</a>
             <a href="/about" className="hover:text-blue-500">About us</a>
             <a href="/services" className="hover:text-blue-500">Services</a>
             <a href="/locations" className="hover:text-blue-500">Service Location</a>
@@ -66,7 +66,7 @@ export default function Navbar() {
         {/* MOBILE MENU DROPDOWN */}
         {menuOpen && (
           <div className="md:hidden bg-white shadow p-4 flex flex-col gap-4 text-lg font-medium">
-            <a href="/" className="hover:text-blue-500">Home</a>
+            <a href="#" className="hover:text-blue-500">Home</a>
             <a href="/about" className="hover:text-blue-500">About us</a>
             <a href="/services" className="hover:text-blue-500">Services</a>
             <a href="/locations" className="hover:text-blue-500">Service Location</a>
